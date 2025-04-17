@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>About My Achievement</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+</body>
+
+
+ <div class="container">
+    <header>
+        <h1>
+            This page is talking about one of my Achievement.
+        </h1>
+        <br>
+        <h2>That is a logo design.Now it is worn ny every student in the secondary school I attended.</h2>
+    </header>
+    <img src="logo.jpg" alt="" class="image">
+    <div class="accordion-menu">
+        <div  class="item" id="item1">
+            <a href="#item1" class="title">
+                <span>Idea</span>
+                <i class="icon"></i>
+            </a>
+            <p class="text">
+                This is our original school emblem.I simplified it a bit while retaining the original elements.
+
+                 <br>
+                <img src="lws.jpg" alt="" class="lws"></td>
+                <br>
+                Our school is a Christian school. So I placed the cross in the middle and used the most conspicuous red color. 
+                The use of yellow for both 'L' and 'S' can better convey the meaning of being together. The pages below are white, which makes people think that this is an open book. 
+                 If the "w" in the middle is also yellow, the pattern will be too grouped and lose focus. I filled the 'w' with white to create a broken shape and focus.               
+            </p>
+        </div>
+
+
+    </div>
+    <div class="accordion-menu">
+        <div  class="item" id="item2">
+            <a href="#item2" class="title">
+                <span>Details</span>
+                <i class="icon"></i>
+            </a>
+            <p class="text" id="text">
+                This is a design competition open to the whole school to design a school emblem for the new school jacket. The winning design will be adopted.
+                Only red,yellow and white can be used in the design.
+                <br>
+                <img src="handbook.jpg" alt="" class="handbook">
+                <br>
+                (There is the school uniform pattern in the handbook.My logo design is still in use today. )
+            </p>
+        </div>
+    </div>
+    <div class="accordion-menu">
+            <div  class="item" id="item3">
+                <a href="#item3" class="title">
+                    <span>Sample</span>
+                    <i class="icon"></i>
+                </a>
+                
+                    <table class="text"><tr>
+                    <td><img src="jacket.jpg" alt="" class="jacket"></td>
+                    <td><img src="logo_sample.jpg" alt="" class="logo_sample"></td>
+                    </tr>
+                    <th>(There are some sample picture.)</th>
+                </table>
+                
+            </div>
+  </div>
+ </div>
+
+
+
+ <div class="hello">
+    <button id="close">&times;</button>
+    
+    <script>
+        window.addEventListener("load",function(){
+            setTimeout(
+                function open(event){
+                    document.querySelector(".hello").style.display="flex";
+                }
+                
+            )
+        });
+     document.querySelector("#close").addEventListener("click",function(){
+        document.querySelector(".hello").style.display="none";
+     });
+    </script>
+ </div>
+</html>
